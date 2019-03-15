@@ -1,7 +1,7 @@
 """
 @author : CK =>ckrajadurai7@gmail.com
 @github : https://github.com/ck2605
-@date : 13/03/2019
+@date : 15/03/2019
 
 ============================================Web Scraping with Python and BeautifulSoup===============================================
 
@@ -79,6 +79,5 @@ mv_ratings = pd.DataFrame({'movie': names,
                            'metascore': metascores,
                            'votes': votes})
 print(mv_ratings.info())
-mv_ratings.head(10)
 mv_ratings.to_csv('movie_ratings.csv')
 
